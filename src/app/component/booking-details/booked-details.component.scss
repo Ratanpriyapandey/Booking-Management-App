@@ -1,0 +1,37 @@
+
+* {background-color: white; }
+.progress{
+  background-color: green;
+}
+.row{
+  min-width:  800px;
+ }
+.card-body{
+  min-width: 100px;
+  height: 80px
+}
+.card-body_week{
+  min-width: 100px;
+  text-align: center;
+}
+.divider-text {
+  position: relative;
+  //text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.calenderdays{
+  max-width: 25%;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+.calender{
+  max-width: 25%;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 10%;
+}

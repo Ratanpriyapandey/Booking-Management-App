@@ -1,0 +1,65 @@
+
+
+.progress{
+  background-color: green;
+}
+.row{
+  min-width:  800px;
+ }
+.card-body{
+  min-width: 100px;
+  height: 100px
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 5px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+.card-body_week{
+  min-width: 100px;
+  text-align: center;
+}
+.divider-text {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.calenderdays{
+  max-width: 25%;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+.calender{
+  max-width: 25%;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+.control-label{
+color:white;
+font-size: 24px;
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {  }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
